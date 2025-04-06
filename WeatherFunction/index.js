@@ -6,7 +6,7 @@ const port = process.env.PORT || 3000;
 
 app.get("/api/weather", async (req, res) => {
   const city = req.query.city || "Hanoi";
-  const apiKey = "YOUR_OPENWEATHERMAP_API_KEY"; // 👈 thay bằng key thật
+  const apiKey = '8bcd912b7d2ef218f820d7640376befa';  // 👈 API Key mới từ OpenWeather
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
   try {

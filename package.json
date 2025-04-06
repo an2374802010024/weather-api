@@ -2,12 +2,13 @@
     "name": "weather-api",
     "version": "1.0.0",
     "description": "Node.js Express API for weather forecast",
-    "main": "WeatherFunction/index.js",
+    "main": "index.js",
     "scripts": {
-        "start": "node WeatherFunction/index.js"
+      "start": "node index.js"  
     },
     "dependencies": {
-        "axios": "^1.5.0",
-        "express": "^4.21.2"
+      "axios": "^1.5.0",
+      "express": "^4.21.2"
     }
 }
+  
