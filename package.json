@@ -1,0 +1,13 @@
+{
+    "name": "weather-api",
+    "version": "1.0.0",
+    "description": "Node.js Azure Function for weather forecast",
+    "main": "index.js",
+    "scripts": {
+      "start": "func start"
+    },
+    "dependencies": {
+      "axios": "^1.5.0"
+    }
+  }
+  
