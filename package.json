@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "weather-api",
   "version": "1.0.0",
   "main": "index.js",
@@ -14,4 +15,18 @@
     "cors": "^2.8.5",
     "express": "^5.1.0"
   }
+=======
+    "name": "weather-api",
+    "version": "1.0.0",
+    "description": "Node.js Express API for weather forecast",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "axios": "^1.5.0",
+        "cors": "^2.8.5",
+        "express": "^4.21.2"
+    }
+>>>>>>> bb6c057b93ffbf6cf4c008b4a10dc213f0dce036
 }
