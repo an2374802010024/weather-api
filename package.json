@@ -1,32 +1,25 @@
 {
-<<<<<<< HEAD
   "name": "weather-api",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/an2374802010024/weather-api.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/an2374802010024/weather-api/issues"
+  },
+  "homepage": "https://github.com/an2374802010024/weather-api#readme",
   "description": "",
   "dependencies": {
     "axios": "^1.8.4",
     "cors": "^2.8.5",
     "express": "^5.1.0"
   }
-=======
-    "name": "weather-api",
-    "version": "1.0.0",
-    "description": "Node.js Express API for weather forecast",
-    "main": "index.js",
-    "scripts": {
-        "start": "node index.js"
-    },
-    "dependencies": {
-        "axios": "^1.5.0",
-        "cors": "^2.8.5",
-        "express": "^4.21.2"
-    }
->>>>>>> bb6c057b93ffbf6cf4c008b4a10dc213f0dce036
 }
